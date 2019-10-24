@@ -1,0 +1,59 @@
+*{box-sizing: border-box;}
+
+html{
+  height: 100%;
+  width: 100%;
+}
+
+body{
+  height: 100%;
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+  font-family: "Special Elite", cursive;
+  text-align: center;
+}
+
+div{
+   height: 100%;
+  width: 50%;
+}
+
+.left{
+  background-color: gold;
+  float: left;
+  color: DarkSlateGray;
+}
+
+.right{
+  background-color: teal;
+  overflow: auto;
+  color: Ivory;
+}
+
+h1{
+  width: 60%;
+  margin: 7em auto;
+  padding: 1em;
+  display: inline-block;
+}
+
+.vm{
+  border: 2px solid DarkSlateGray;
+}
+
+.hm{
+  border: 2px solid Ivory;
+}
+
+a{
+  text-decoration: none;
+}
+
+a.avm{
+  color: DarkSlateGray;
+}
+
+a.ahm{
+  color: Ivory;
+}
